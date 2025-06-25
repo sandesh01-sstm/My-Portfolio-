@@ -1,61 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sandesh Dhungana</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    .profile-img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 4px solid #007bff;
-      margin-bottom: 15px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio - Anuj Sharma</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- Header -->
-<div class="container text-center mt-4">
-  <img src="https://your-image-link.jpg" alt="Sandesh" class="profile-img">
-  <h1>Sandesh Dhungana</h1>
-  <p class="text-muted">Aspiring Web Developer | Tech Enthusiast</p>
-</div>
+  <!-- NAVBAR -->
+  <header>
+    <nav>
+      <h2 class="logo">Anuj</h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<!-- About Me -->
-<div class="container mt-5">
-  <h3>About Me</h3>
-  <p>
-    Hello! I’m Sandesh from Syangja. I’m passionate about electronics, coding, and creating cool digital stuff.
-    Currently running Eagle Electronic Villa and learning web development.
-  </p>
-</div>
+  <!-- HOME -->
+  <section id="home" class="hero">
+    <h1>Hi, I'm Anuj Sharma</h1>
+    <p>Aspiring Web Developer from Nepal 🇳🇵</p>
+    <a href="#projects" class="btn">See My Work</a>
+  </section>
 
-<!-- Projects -->
-<div class="container mt-5">
-  <h3>Projects</h3>
-  <ul>
-    p>1 : <a href="https://sandesh01-sstm.github.io/Fan-club-website"</a></p>
-    <li><a href="#">Eagle Electronic Portfolio</a></li>
-  </ul>
-</div>
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a student passionate about technology and web development.
+      I love creating clean, user-friendly websites and always learning new skills.
+    </p>
+  </section>
 
-<!-- Contact -->
-<div class="container mt-5 mb-4">
-  <h3>Contact</h3>
-  <p>Email: austinn9797@gmail.com</p>
-  <p>Phone: 9863580246</p>
-  <p>Instagram: <a href="https://instagram.com/kohli_stan">@kohli_stan</a></p>
-</div>
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <div>Python</div>
+      <div>Git & GitHub</div>
+    </div>
+  </section>
 
-<!-- Footer -->
-<footer class="bg-dark text-white text-center py-3">
-  &copy; 2025 Sandesh Dhungana
-</footer>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Pomodoro Timer</h3>
+        <p>A focus timer to increase productivity. Built with HTML, CSS, JS.</p>
+        <a href="#">View Project</a>
+      </div>
+      <!-- Add more project blocks -->
+    </div>
+  </section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: anuj@example.com</p>
+    <p>GitHub: github.com/anujsharma</p>
+    <p>Instagram: @anuj.coder</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Anuj Sharma. All Rights Reserved.</p>
+  </footer>
+
 </body>
 </html>
